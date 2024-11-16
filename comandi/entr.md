@@ -18,6 +18,20 @@ Dopodiché se modificheremo il file vedremo che lo script viene eseguito:
 echo "prova 3" > file-changing.txt
 ```
 
+Lo script Bash sarà qualcosa di simile:
+
+```
+#!/bin/bash
+
+clear
+
+/usr/games/cowsay "ciao! hai modificato il file"
+
+exit 0
+```
+
+monitorare i processi di entr
+-----------------------------
 Per vedere i processi di entr attivi è sufficiente monitorare i processi di entr attivi:
 
 ```
@@ -41,7 +55,7 @@ di simile:
 
 clear
 
-/usr/games/cowsay "ciao! hai modificato $( basename $1)"
+/usr/games/cowsay "ciao! hai modificato $( basename $1 )"
 
 exit 0
 ```
