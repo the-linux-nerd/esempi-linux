@@ -50,3 +50,6 @@ Un utilizzo molto comodo delle subshell è la parallelizzazione dei processi; si
 ```
 (./sleep1.sh) & (./sleep2.sh) & (./sleep3.sh) &
 ```
+
+# bibliografia
+- http://www.pluto.it/files/ildp/guide/abs/subshells.html
