@@ -35,3 +35,10 @@ fortune -s | espeak -s 130 -p 15 -v europe/it
 ```
 fortune -s | espeak -s 130 -p 15 -a 50 -g 3 -v europe/it
 ```
+
+# leggere un file di testo
+
+```
+fortune > fortune.txt
+cat fortune.txt | espeak -s 130 -p 15 -a 50 -g 3 -v europe/it
+```
