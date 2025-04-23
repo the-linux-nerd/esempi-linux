@@ -6,7 +6,7 @@ ricevono o inviano singoli byte (o caratteri) mentre i device a blocchi ricevono
 Nella prima categoria troviamo ad esempio le porte seriali, nella seconda i dischi rigidi e le porte USB. Un file a blocchi è
 identificato da una lettera b all'inizio della stringa dei permessi, mentre una c in quella posizione indica un file a caratteri.
 
-# pseudo devices
+## pseudo devices
 Le pseudo devices sono file che non rappresentano un device fisico collegato al computer, ma qualche tipo di device logico. Le pseudo
 device più comuni sono:
 
@@ -24,7 +24,40 @@ device più comuni sono:
 - /dev/shm/* i segmenti di memoria condivisa
 - /dev/loopX file montati come device a blocchi (ad es. un disco fisso virtuale creato da un file)
 
-# i dischi rigidi
+### esempio 1
+
+```
+echo "ciao" > test.txt
+mv test.txt /dev/null
+```
+
+### esempio 2
+
+```
+head -c 1M < /dev/zero > nullbytes
+du -h nullbytes
+```
+
+### esempio 3
+
+```
+head -c 1M < /dev/random > randombytes
+cat randombytes
+```
+
+### esempio 4
+
+```
+echo > /dev/full
+```
+
+### esempio 5
+
+```
+echo "ciao" > $(tty)
+```
+
+## i dischi rigidi
 Fra i file più importanti presenti in /dev ci sono quelli che rappresentano i dischi e le partizioni presenti sul sistema. In generale
 i file che rappresentano dischi utilizzano la nomenclatura /dev/sd* (ad es. /dev/sda per il primo disco, /dev/sdb per il secondo,
 e così via) mentre per le partizioni viene aggiunto un numero (quindi /dev/sda1 è la prima partizione del primo disco, eccetera).
