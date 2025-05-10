@@ -28,6 +28,14 @@ Per verificare che tutto funzioni lanciare il container hello-world:
 docker run hello-world
 ```
 
+per testare la rete:
+
+```
+docker run -d -p 8080:80 docker/welcome-to-docker
+```
+
+Poi aprire in un browser l'indirizzo della VM puntando alla porta 8080.
+
 ## configurazione della rete
 Creare il file /etc/systemd/network/static.network:
 
