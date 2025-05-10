@@ -52,3 +52,9 @@ docker container ls
 ```
 docker stop container_id
 ```
+
+## eliminare le immagini inutilizzate
+
+```
+docker image prune --all --force
+```
