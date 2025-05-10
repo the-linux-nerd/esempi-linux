@@ -17,7 +17,7 @@ chmod +x create-basic-configdrive
 ./create-basic-configdrive -H my_vm01 -S ~/.ssh/id_rsa.pub
 
 VBoxManage clonehd coreos_production_stable.vdi my_vm01.vdi
-VBoxManage modifyhd my_vm01.vdi --resize 10240
+VBoxManage modifyhd my_vm01.vdi --resize 40960
 ```
 Questo creerà il disco virtuale e una ISO da inserire nel lettore ottico virtuale della VM per configurare l'installazione. Fare il login via SSH
 con la chiave impostata, e se serve configurare la rete (vedi sotto).
@@ -57,5 +57,5 @@ sudo systemctl restart systemd-networkd
 
 ```
 VBoxManage clonehd flatcar_production_4152.2.3.vdi flatcar_production_4152.2.3.new.vdi --format VDI
-VBoxManage modifyhd flatcar_production_4152.2.3.new.vdi --resize 20480
+VBoxManage modifyhd flatcar_production_4152.2.3.new.vdi --resize 40960
 ```
