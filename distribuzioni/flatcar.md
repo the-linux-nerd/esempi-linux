@@ -69,3 +69,4 @@ VBoxManage modifyhd flatcar_production_4152.2.3.new.vdi --resize 40960
 ```
 # link-o-grafia
 - https://www.ilsoftware.it/focus/flatcar-linux-cose-e-come-funziona-la-distribuzione-per-i-container/
+- https://www.flatcar.org/releases
