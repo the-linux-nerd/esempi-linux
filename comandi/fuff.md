@@ -14,3 +14,4 @@ ffuf -w subdomains.txt -u http://35.240.60.13 -H "HOST: FUZZ.thelinuxnerd.it"
 
 # link-o-grafia
 - https://github.com/ffuf/ffuf
+- https://www.freecodecamp.org/news/virtual-host-enumeration-tutorial/
