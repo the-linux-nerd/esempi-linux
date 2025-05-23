@@ -5,6 +5,7 @@ si può utilizzare il comando:
 tune2fs -U $(uuidgen) /dev/sdc3
 ```
 *ATTENZIONE! Avere due dischi con lo stesso UUID può portare a errori di mount e inconsistenze, non dovreste MAI trovarvi in questa situazione!*
+
 Inoltre può capitare che tune2fs si lamenti che il disco non è allineato, nel caso utilizzare:
 ```
 e2fsck -f /dev/sdc3
