@@ -27,8 +27,7 @@ device più comuni sono:
 ### esempio 1
 
 ```
-echo "ciao" > test.txt
-mv test.txt /dev/null
+echo "ciao" > /dev/null
 ```
 
 ### esempio 2
