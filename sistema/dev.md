@@ -28,6 +28,7 @@ device più comuni sono:
 
 ```
 echo "ciao" > /dev/null
+cat /dev/null
 ```
 
 ### esempio 2
