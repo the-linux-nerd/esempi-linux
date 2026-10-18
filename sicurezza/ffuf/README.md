@@ -1,4 +1,4 @@
-# fuff
+# ffuf
 
 ## trovare i sottodomini attivi di un dominio
 
