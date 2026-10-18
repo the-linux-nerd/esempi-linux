@@ -1,4 +1,7 @@
 # find
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=PV-LrYYZSXk) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-trovare-i-file-con-find/)
+
 Il comando find cerca file e cartelle secondo molti criteri: nome, tipo, permessi, data.
 Sintassi: find <cartella da cui cercare> <criteri>. Il punto . indica la cartella corrente e tutte le sottocartelle.
 Per tutte le opzioni: man find.

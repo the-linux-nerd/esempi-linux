@@ -1,5 +1,7 @@
 # git
 
+📺 [il video su YouTube](https://www.youtube.com/watch?v=R2W5cIYQ-o8) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-primi-passi-con-git-spiegato-semplice/)
+
 ## come impostare nome e mail nel repository
 
 ```

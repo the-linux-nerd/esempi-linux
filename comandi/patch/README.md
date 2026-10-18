@@ -1,4 +1,7 @@
 # patch
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=oVXJZcYMe9c) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-applicare-le-modifiche-con-patch/)
+
 Applica a un file le modifiche descritte da un file di patch, che si ottiene con diff.
 Si usa per aggiornare sorgenti, ma va bene per qualsiasi file di testo.
 

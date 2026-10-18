@@ -1,4 +1,7 @@
 # ncdu
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=N837DRXSPkw) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-come-liberare-spazio-su-disco/)
+
 Strumento semplice e veloce per capire cosa occupa spazio sul disco.
 Analizza una cartella e mostra cartelle e file ordinati per dimensione, dal più grande. Permette anche di cancellarli.
 

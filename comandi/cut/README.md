@@ -1,4 +1,7 @@
 # cut
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=NLTLvPZGC0w) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-tagliare-le-stringhe-con-cut/)
+
 Taglia e preleva porzioni dalle righe di un file, ragionando riga per riga.
 Si può lavorare per byte, per caratteri o per campi separati da un delimitatore (di default la tabulazione).
 

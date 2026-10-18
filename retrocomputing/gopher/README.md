@@ -1,4 +1,7 @@
 # Gopher, il web dimenticato
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=L-W5bSCWDrw) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-gopher-il-web-dimenticato/)
+
 Gopher è un protocollo del 1991 che organizza i contenuti ad albero, come cartelle di un file system.
 Veloce, senza cookie né popup. Esistono ancora server attivi (circa 325 censiti da Veronica nel 2022).
 

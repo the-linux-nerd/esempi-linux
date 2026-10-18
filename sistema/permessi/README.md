@@ -1,4 +1,7 @@
 # permessi dei file
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=AcE96fPkFtU) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-capire-proprietari-e-permessi-dei-file/)
+
 In Linux gli utenti, rispetto a ogni file, sono divisi in tre categorie (sigla UGO):
 `u` user (proprietario), `g` group (gruppo proprietario), `o` others (tutti gli altri).
 A ciascuna si assegnano tre permessi (sigla RWX): `r` lettura, `w` scrittura, `x` esecuzione.

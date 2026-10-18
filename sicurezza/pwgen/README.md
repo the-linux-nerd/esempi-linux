@@ -1,4 +1,7 @@
 # pwgen
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=4KtnBZIkU24) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-come-generare-una-password-sicura-con-pwgen/)
+
 Genera password sicure da riga di comando. Può produrre più password alla volta, così si sceglie quella che si preferisce.
 Le opzioni si possono combinare: `-n -y -c` si ricorda facilmente come "NYC", New York City.
 

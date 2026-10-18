@@ -1,4 +1,7 @@
 # tee
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=4i6-PIm0YpU) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-salvare-output-dei-comandi-con-tee/)
+
 Questo comando fa una cosa molto semplice, salva su file e visualizza a schermo l'output di un comando che gli viene passato in pipe.
 Prende il nome dalla giunzione a T che si usa per i tubi dell'acqua perché svolge un compito molto simile.
 

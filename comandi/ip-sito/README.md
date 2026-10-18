@@ -1,4 +1,7 @@
 # dig
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=PWw00aRlhmw) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-trovare-lindirizzo-ip-di-un-sito-web/)
+
 Il comando dig interroga il sistema DNS, quello che traduce i nomi dei siti in indirizzi IP numerici.
 Serve per scoprire a quale indirizzo corrisponde un sito, e viceversa.
 

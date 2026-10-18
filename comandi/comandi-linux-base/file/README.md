@@ -1,4 +1,7 @@
 # gestire file e cartelle
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=rUQ4PM5bFII) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-creare-spostare-e-cancellare-file/)
+
 I comandi di base per creare, copiare, spostare, rinominare e cancellare file e cartelle.
 Un percorso assoluto inizia con /, uno relativo parte dalla cartella corrente.
 

@@ -1,4 +1,7 @@
 # wget
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=DhCnB0Mt-Cs) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-scaricare-file-da-internet-con-wget/)
+
 Questa utility GNU ci consente di scaricare singoli file, pagine HTML e interi siti dal web in maniera affidabile e automatica. Può essere
 facilmente integrato in script per automatizzare le operazioni di download e supporta la ripresa di download parziali.
 

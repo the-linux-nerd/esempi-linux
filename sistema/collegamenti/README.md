@@ -1,4 +1,7 @@
 # ln, collegamenti fisici e simbolici
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=Sy-UpVt4yfM) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-collegamenti-fisici-e-simbolici/)
+
 In Linux ci sono due tipi di collegamento: gli hard link (fisici) e i soft link (simbolici).
 Un hard link è un altro nome per gli stessi dati. Un link simbolico è un file speciale che contiene un percorso.
 

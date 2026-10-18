@@ -1,4 +1,7 @@
 # cron
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=HQLihB7UehA) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-pianificare-le-operazioni-con-cron/)
+
 Il demone cron esegue ogni minuto: controlla i file di pianificazione e lancia i compiti in programma.
 Serve per operazioni ripetitive e cicliche. Funziona sia per il sistema sia per i singoli utenti.
 

@@ -1,4 +1,7 @@
 # apt
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=it_IXezbCIs) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-installare-e-disinstallare-il-software/)
+
 Su Debian il software si installa con il gestore di pacchetti, non scaricandolo a mano da internet.
 È un po' come lo store di un telefono: un posto sicuro da cui installare programmi con un solo comando.
 

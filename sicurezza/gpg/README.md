@@ -1,4 +1,7 @@
 # gpg
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=xrQyKMrtj7M) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-crittografare-un-file-con-gpg/)
+
 Cifra un file con una passphrase, in modo che gli estranei non possano leggerlo. Poi lo si può decifrare.
 Qui si usa la forma più semplice, con cifratura simmetrica.
 

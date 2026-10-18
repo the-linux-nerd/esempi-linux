@@ -1,4 +1,7 @@
 # la cartella /dev
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=IjL8XEnRnyE) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-alla-scoperta-di-dev/)
+
 La cartella /dev contiene file che rappresentano periferiche collegate al computer. I file che rappresentano i device sono
 divisi in device a caratteri e device a blocchi; la differenza fra i due tipi risiede soprattutto nel fatto che i device a caratteri
 ricevono o inviano singoli byte (o caratteri) mentre i device a blocchi ricevono o inviano interi blocchi di byte.

@@ -1,4 +1,7 @@
 # diff
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=8fplTcKkKr0) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-trovare-le-differenze-con-diff/)
+
 Calcola le differenze tra due file di testo e dice cosa cambiare per renderli uguali.
 Funziona con qualsiasi file di testo: codice, documentazione, configurazioni.
 

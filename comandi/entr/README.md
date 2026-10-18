@@ -1,3 +1,5 @@
+📺 [il video su YouTube](https://www.youtube.com/watch?v=DCwXB9AqPNQ) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-monitorare-i-file-con-entr/)
+
 entr
 ====
 Questo comando monitora un file o una cartella e lancia un comando quando il file o la cartella

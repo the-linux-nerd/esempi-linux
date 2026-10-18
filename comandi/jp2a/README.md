@@ -1,4 +1,7 @@
 # jp2a
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=juUiT3ti_rc) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-ascii-art-con-jp2a/)
+
 Converte un'immagine JPEG o PNG in ASCII art da mostrare nel terminale.
 Il risultato è fatto di veri caratteri, quindi si può copiare e incollare in un file di testo.
 Si installa con:

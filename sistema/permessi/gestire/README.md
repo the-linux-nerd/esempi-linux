@@ -1,4 +1,7 @@
 # chmod, chown, chgrp
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=TQSZB-Rykj8) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-gestire-proprietari-e-permessi-dei-file/)
+
 Tre comandi per cambiare i permessi (`chmod`), il proprietario (`chown`) e il gruppo (`chgrp`) di un file.
 Si usano sul file `permessi.txt` creato nel video precedente.
 

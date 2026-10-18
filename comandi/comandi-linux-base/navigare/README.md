@@ -1,4 +1,7 @@
 # navigare nel file system
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=zVCxeEhV9cU) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-come-spostarsi-fra-le-cartelle/)
+
 Per spostarsi fra le cartelle bastano pochi comandi: pwd, cd e ls.
 Il file system parte dalla radice /, che contiene tutte le altre cartelle.
 

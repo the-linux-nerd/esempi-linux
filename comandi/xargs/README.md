@@ -1,4 +1,7 @@
 # xargs
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=sfzJrmfxjDE) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-comandi-dinamici-con-xargs/)
+
 Questo comando consente di eseguirne un altro passandogli come parametri i dati letti dallo standard input.
 È particolarmente utile per i comandi che accettano un numero variabile di parametri, ma
 può essere utilizzato in un grande numero di casi.

@@ -1,5 +1,7 @@
 # rsync
 
+📺 [il video su YouTube](https://www.youtube.com/watch?v=uWfAylr3mko) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-sincronizzare-file-e-cartelle-con-rsync/)
+
 opzione    | significato
 -----------|-----------------------
 -a         | archivia (mantiene tutte le proprietà dei file sorgenti) equivale a -rlptgoD

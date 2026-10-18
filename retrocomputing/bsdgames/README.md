@@ -1,4 +1,7 @@
 # bsdgames, un ritorno agli anni '80
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=xWjI_Dxl2KE) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-bsdgames-un-ritorno-agli-anni-80/)
+
 Un pacchetto con una collezione di vecchi giochi testuali da riga di comando.
 Gli eseguibili stanno in `/usr/games`, che di solito non è nel PATH.
 

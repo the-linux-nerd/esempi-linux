@@ -1,4 +1,7 @@
 # browser testuali
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=Fh0UZNj1l88) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-navigare-sul-web-da-linea-di-comando/)
+
 Browser per navigare sul web dalla linea di comando, utili su server senza interfaccia grafica.
 Nel video li proviamo uno dopo l'altro e li confrontiamo. Il giudizio finale di Linux Nerd premia lynx.
 In tutti, il tasto g apre un indirizzo e q esce.

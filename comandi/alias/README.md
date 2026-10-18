@@ -1,4 +1,7 @@
 # alias
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=REAFG9L0Su0) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-risparmiare-tempo-con-gli-alias-di-comando/)
+
 Dà un'etichetta corta a una linea di comando lunga o complicata.
 La sintassi è `alias etichetta=comando`. Dopo, scrivendo l'etichetta si esegue il comando.
 

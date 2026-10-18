@@ -1,4 +1,7 @@
 # le cartelle di Linux
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=Qg18b7dC59M) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-cosa-ce-nelle-cartelle-di-linux/)
+
 Una guida alle cartelle principali del file system standard di Linux e al loro ruolo.
 Si parte dalla radice con un elenco in colonna, poi si passa in rassegna una cartella alla volta.
 

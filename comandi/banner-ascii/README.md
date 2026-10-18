@@ -1,4 +1,7 @@
 # figlet e toilet
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=MdWd4b_1xM4) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-creare-banner-ascii-da-linea-di-comando/)
+
 Due comandi per creare banner ASCII da linea di comando. Si installano con apt-get:
 
 ```

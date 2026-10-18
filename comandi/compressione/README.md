@@ -1,4 +1,7 @@
 # tar
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=Wo7zJa4M3E4) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-creare-e-gestire-file-compressi/)
+
 Il comando tar crea un unico file (archivio) che contiene file e cartelle. Il nome viene da "tape archive".
 Da solo non comprime: per comprimere si aggiunge un'opzione.
 

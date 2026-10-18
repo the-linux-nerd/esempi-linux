@@ -1,4 +1,7 @@
 # espressioni regolari
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=8FFTOKi7nHo) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-introduzione-alle-espressioni-regolari/)
+
 Un linguaggio per descrivere dei pattern di testo, trovare delle corrispondenze (match) ed estrarre parti di testo.
 Valgono in quasi tutti i linguaggi e comandi (grep, sed, Python, Bash...).
 Nel video si prova tutto sul sito https://regex101.com, che spiega l'espressione man mano che la si scrive.

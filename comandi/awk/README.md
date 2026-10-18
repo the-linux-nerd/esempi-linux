@@ -1,4 +1,7 @@
 # awk
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=6tr2bF7I8Q8) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-introduzione-al-comando-awk/)
+
 awk è un processore di testo: legge l'input riga per riga e ci fa sopra delle operazioni.
 Il flusso di lavoro è: blocco BEGIN (una volta all'inizio), blocco principale (per ogni riga), blocco END (una volta alla fine).
 Solo il blocco principale è obbligatorio. I blocchi si scrivono fra parentesi graffe.

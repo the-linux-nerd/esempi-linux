@@ -1,5 +1,7 @@
 # espeak
 
+📺 [il video su YouTube](https://www.youtube.com/watch?v=oSA6qASsugM) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-far-parlare-linux-con-espeak/)
+
 ## leggere una fortune
 
 ```

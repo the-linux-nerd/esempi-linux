@@ -1,4 +1,7 @@
 # git stash, revert, reset
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=iKJB_nHm4h4) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-git-stash-revert-e-reset-spiegati-facili/)
+
 Tre modi per muoversi nel tempo in un repository: accantonare le modifiche (stash), annullare un commit con un nuovo commit (revert) e tornare indietro riscrivendo la cronologia (reset).
 Gli esempi partono da un repository con i file `animali.txt` e `verdure.txt`.
 

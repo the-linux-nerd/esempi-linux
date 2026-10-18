@@ -1,4 +1,7 @@
 # git branch
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=O4yVod0Vl-c) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-gestire-le-branch-in-git-spiegato-semplice/)
+
 Un branch (ramo) è un'etichetta attaccata a un commit. Permette di tenere linee di sviluppo parallele dello stesso progetto e di riunirle poi con un merge.
 Gli esempi partono da un repository con qualche file di testo e il ramo `master`.
 

@@ -1,4 +1,7 @@
 # tgpt
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=u63ZM1wmoMY) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-usare-chatgpt-da-linea-di-comando/)
+
 tgpt permette di interrogare un'intelligenza artificiale (ChatGPT) dalla linea di comando, senza chiave API.
 Si appoggia a un progetto gratuito e usa un modello gratuito.
 Utile per farsi suggerire un comando senza uscire dal terminale. L'IA non vede i file della macchina.

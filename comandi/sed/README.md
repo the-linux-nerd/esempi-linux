@@ -1,4 +1,7 @@
 # sed
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=brEL5lL9WfY) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-manipolare-il-testo-con-sed/)
+
 Serve a sostituire e manipolare il contenuto di file o stringhe.
 Il primo argomento è lo script (cosa fare), il secondo il file. Può anche leggere dallo standard input.
 sed non modifica il file: scrive il risultato sullo standard output.

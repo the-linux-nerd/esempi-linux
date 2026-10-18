@@ -1,4 +1,7 @@
 # man
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=JDDii9kccHw) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-rtfm-read-the-fantastic-manpage/)
+
 Il comando man mostra il manuale di un comando. Il manuale è diviso in sezioni (volumi):
 la 1 contiene i comandi, la 3 le chiamate di libreria per i programmatori.
 Si scorre con le frecce o PagUp/PagDown e si esce con q.

@@ -1,4 +1,7 @@
 # sort
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=72PLwNksjBk) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-ordinare-i-dati-con-sort/)
+
 Ordina le righe di un file o di un output, in ordine alfabetico o numerico.
 Non modifica il file: ordina solo quello che esce a schermo.
 

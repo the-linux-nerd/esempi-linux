@@ -1,4 +1,7 @@
 # curse of war
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=qGi1XXOivBo) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-curse-of-war/)
+
 Un piccolo gioco di strategia in ASCII da giocare nel terminale, anche in multiplayer.
 Si guida la crescita della propria popolazione per conquistare le miniere d'oro e battere gli avversari.
 

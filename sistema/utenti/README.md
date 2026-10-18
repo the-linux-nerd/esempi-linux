@@ -1,4 +1,7 @@
 # useradd, passwd, groupadd, userdel
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=NQxXuGqyB_w) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-aggiungere-un-utente-al-sistema/)
+
 `useradd` crea un utente. Da solo non crea la cartella home e non imposta la password, quindi di solito si usa con alcune opzioni.
 Alla creazione di un utente viene creato anche un gruppo con lo stesso nome.
 

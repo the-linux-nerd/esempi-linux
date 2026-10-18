@@ -1,4 +1,7 @@
 # chattare su IRC da linea di comando
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=jG4ZIkSInNQ) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-chattare-su-irc-da-linea-di-comando/)
+
 IRC è una rete di server per chattare in canali di gruppo o in privato. Esiste ancora ed è molto frequentata.
 Il client da terminale è WeeChat. I comandi IRC iniziano con la barra `/`, il resto è testo da mandare in chat.
 

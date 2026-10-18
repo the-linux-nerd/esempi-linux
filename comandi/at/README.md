@@ -1,4 +1,7 @@
 # at
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=4Bj6cmR7IrE) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-eseguire-i-comandi-nel-futuro/)
+
 Il comando at serve a eseguire comandi in un momento preciso del futuro.
 Se non è installato: sudo apt-get install at
 

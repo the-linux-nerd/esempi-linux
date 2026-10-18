@@ -1,4 +1,7 @@
 # fdupes
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=vOCFO1yv-Qo) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-trovare-i-file-doppi-con-fdupes/)
+
 Cerca i file duplicati nel file system, confrontando md5 e contenuto byte per byte. Utile per liberare spazio sul disco.
 
 Si installa con `sudo apt install fdupes`.

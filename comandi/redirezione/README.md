@@ -1,4 +1,7 @@
 # redirezione dell'output
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=kQ9VTFzY-VE) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-redirezione-di-input-e-output/)
+
 Ogni comando produce un output che di solito vediamo sul terminale.
 Con la redirezione possiamo mandarlo invece dentro un file.
 

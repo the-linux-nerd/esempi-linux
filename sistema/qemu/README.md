@@ -1,5 +1,7 @@
 # qemu
 
+📺 [il video su YouTube](https://www.youtube.com/watch?v=su0yByMZbAY) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-macchine-virtuali-con-qemu/)
+
 ## creazione del disco virtuale
 
 ```

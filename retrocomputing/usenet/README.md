@@ -1,4 +1,7 @@
 # Usenet, dove tutto è iniziato
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=ElWErN1xcIE) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-usenet-dove-tutto-e-iniziato/)
+
 Usenet è una rete di server che archivia messaggi organizzati in gruppi tematici ad albero (it.comp..., it.arti...).
 Per usarla servono un account su un server gratuito, come Eternal September, e un client a riga di comando, tin.
 

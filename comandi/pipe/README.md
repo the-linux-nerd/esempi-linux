@@ -1,4 +1,7 @@
 # pipe
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=8WDwPA0Jijg) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-concatenazione-delloutput-dei-comandi/)
+
 La pipe (il simbolo |) collega l'output di un comando all'input del comando successivo.
 Si possono concatenare anche più comandi.
 

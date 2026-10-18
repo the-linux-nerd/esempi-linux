@@ -1,4 +1,7 @@
 # tr
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=NKBWDNqRDI4) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-sostituire-il-testo-con-tr/)
+
 Il comando tr traduce (sostituisce) i caratteri di un testo in altri caratteri.
 Sintassi: tr [opzioni] SET1 [SET2]. Ogni carattere di SET1 diventa il corrispondente di SET2.
 Legge dallo standard input, quindi di solito si usa con una pipe.

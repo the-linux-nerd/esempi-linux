@@ -1,4 +1,7 @@
 # cercare testo nei file binari (PDF e docx)
+
+📺 [il video su YouTube](https://www.youtube.com/watch?v=JQW8DHo4rFQ) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-trovare-il-testo-nei-file-binari/)
+
 grep non trova il testo dentro file binari come PDF o docx. La soluzione è un one-liner: per ogni file lo si converte in testo, si fa il grep sui file di testo e poi si cancellano.
 
 Servono `pdftotext` (`sudo apt install poppler-utils`) e `docx2txt`.
