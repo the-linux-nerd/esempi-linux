@@ -36,6 +36,21 @@ Darsi un nickname personalizzato:
 /nick <nick>
 ```
 
+Registrare il nick presso NickServ con password e email, poi confermarlo col codice arrivato per mail:
+
+```
+/msg NickServ REGISTER <password> <email>
+/msg NickServ VERIFY REGISTER <nick> <codice>
+```
+
+Alle connessioni successive identificarsi, oppure far mandare la password a WeeChat con SASL:
+
+```
+/msg NickServ IDENTIFY <password>
+/set irc.server.liberachat.sasl_username <nick>
+/set irc.server.liberachat.sasl_password <password>
+```
+
 ## esempio #5
 Cercare i canali. Con gli asterischi si ottengono quelli che contengono una parola, per esempio debian:
 
@@ -43,11 +58,32 @@ Cercare i canali. Con gli asterischi si ottengono quelli che contengono una paro
 /list *debian*
 ```
 
+Ricerche più mirate: canali con più di 100 utenti (filtro del server), oppure con un'espressione regolare:
+
+```
+/list >100
+/list -re ^#linux
+```
+
+Nel buffer di `/list` si filtra scrivendo al prompt: `n:` nel nome, `t:` nel topic, `u:` per numero di utenti, `s:` per ordinare; `*` mostra tutto, `j` entra nel canale selezionato.
+
+```
+t:italia
+u:>50
+s:-users
+```
+
 ## esempio #6
 Entrare in un canale:
 
 ```
 /join #debian-it
+```
+
+E il canale di The Linux Nerd:
+
+```
+/join #the-linux-nerd
 ```
 
 ## esempio #7

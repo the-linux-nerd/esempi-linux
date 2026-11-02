@@ -40,6 +40,7 @@ Esempi e comandi delle puntate GNU/Linux del canale YouTube [The Linux Nerd](htt
 - 06/05/2025 [scaricare file da internet con wget](https://www.youtube.com/watch?v=DhCnB0Mt-Cs) — [`comandi/wget`](comandi/wget)
 - 19/05/2025 [far parlare Linux con espeak](https://www.youtube.com/watch?v=oSA6qASsugM) — [`comandi/espeak`](comandi/espeak)
 - 13/10/2025 [sincronizzare file e cartelle con rsync](https://www.youtube.com/watch?v=uWfAylr3mko) — [`comandi/rsync`](comandi/rsync)
+- 22/10/2026 [redirezione avanzata in bash](https://www.youtube.com/watch?v=cRgHsqAabn4) — *esempi in arrivo*
 
 ## sistema
 
