@@ -93,6 +93,13 @@ Scrivere un messaggio: basta digitarlo al prompt e premere invio.
 Ciao a tutti
 ```
 
+Messaggio privato a un utente: `/query` apre un buffer dedicato alla conversazione, `/msg` manda un messaggio al volo senza aprirlo:
+
+```
+/query <nick> ciao, come va?
+/msg <nick> ci vediamo dopo
+```
+
 ## esempio #8
 Uscire dal canale e tornare alla lista:
 
