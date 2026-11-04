@@ -10,8 +10,10 @@
 # cartella corrente, PATH. Il portafoglio di default e' ./portafoglio.
 #
 # Tutto passa da Tor, anche lo scaricamento dell'elenco: il nodo non vede il
-# vostro IP. Ogni nodo si prova con get_info e si tiene il primo sincronizzato;
-# se monero.fail non risponde si usa l'ultimo elenco salvato.
+# vostro IP. Ogni nodo si prova con get_info e con una misura di velocita', e si
+# tiene il primo sincronizzato che scarica almeno a VELOCITA KB/s ( default 60:
+# sotto, il refresh di un portafoglio indietro di settimane si pianta ). Se
+# monero.fail non risponde si usa l'ultimo elenco salvato.
 
 set -u
 TOR=${TOR_PROXY:-127.0.0.1:9050}
@@ -22,7 +24,7 @@ solo_nodo=0
 PORTAFOGLIO=./portafoglio
 case "${1:-}" in
   --nodo) solo_nodo=1 ;;
-  -h|--help) sed -n '2,15p' "$0"; exit 0 ;;
+  -h|--help) sed -n '2,16p' "$0"; exit 0 ;;
   "") ;;
   *) PORTAFOGLIO=$1 ;;
 esac
@@ -63,18 +65,38 @@ else
   exit 1
 fi
 
-# 3. Il primo nodo vivo e sincronizzato, in ordine casuale
-nodo=""
+# 3. Il primo nodo vivo, sincronizzato e abbastanza veloce, in ordine casuale.
+#    get_info dice solo che il nodo risponde, ma il refresh scarica blocchi interi
+#    ( centinaia di MB se il portafoglio e' indietro ) e su un nodo lento si pianta:
+#    quindi si misura anche un trasferimento vero, gli ultimi 300 header di blocco
+#    ( circa 260 KB ), e si scartano i nodi sotto VELOCITA KB/s. Se nessuno arriva
+#    alla soglia si usa il piu' veloce fra quelli vivi.
+VELOCITA=${VELOCITA:-60}
+nodo=""; meglio=""; meglio_kb=0
 for n in $(shuf "$CACHE" | head -n "$PROVE"); do
   printf '  provo %s ... ' "${n:0:24}"
-  if tor_curl -m 25 "http://$n/get_info" | python3 -c '
+  altezza=$(tor_curl -m 25 "http://$n/get_info" | python3 -c '
 import json, sys
 d = json.load(sys.stdin)
-sys.exit(0 if d.get("status") == "OK" and d.get("synchronized") and not d.get("offline") else 1)' 2>/dev/null; then
-    echo "ok"; nodo=$n; break
-  fi
-  echo "no"
+print(d["height"] if d.get("status") == "OK" and d.get("synchronized") and not d.get("offline") else "")' 2>/dev/null)
+  if [ -z "$altezza" ]; then echo "no"; continue; fi
+  misura=$(tor_curl -m 40 -o /dev/null -w '%{size_download} %{speed_download}' \
+    -H 'Content-Type: application/json' "http://$n/json_rpc" \
+    -d "{\"jsonrpc\":\"2.0\",\"id\":0,\"method\":\"get_block_headers_range\",\"params\":{\"start_height\":$(( altezza - 301 )),\"end_height\":$(( altezza - 2 ))}}")
+  esito=$?
+  read -r byte vel <<< "${misura:-0 0}"
+  kb=$(( ${vel%.*} / 1024 ))
+  if [ "$esito" -ne 0 ] && [ "$esito" -ne 28 ]; then echo "vivo, ma la misura fallisce"; continue; fi
+  # risposta completa ma piccola: un errore del nodo, non un trasferimento
+  if [ "$esito" -eq 0 ] && [ "${byte%.*}" -lt 100000 ]; then echo "vivo, ma non fa scaricare"; continue; fi
+  if [ "$esito" -eq 0 ] && [ "$kb" -ge "$VELOCITA" ]; then echo "ok, $kb KB/s"; nodo=$n; break; fi
+  echo "lento, $kb KB/s"
+  if [ "$kb" -gt "$meglio_kb" ]; then meglio=$n; meglio_kb=$kb; fi
 done
+if [ -z "$nodo" ] && [ -n "$meglio" ]; then
+  echo "Nessuno arriva a $VELOCITA KB/s: uso il piu' veloce, $meglio_kb KB/s."
+  nodo=$meglio
+fi
 if [ -z "$nodo" ]; then
   echo "Nessuno dei $PROVE nodi provati risponde. Rilanciate: ne pesca altri a caso."
   exit 1
