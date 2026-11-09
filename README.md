@@ -41,6 +41,7 @@ Esempi e comandi delle puntate GNU/Linux del canale YouTube [The Linux Nerd](htt
 - 19/05/2025 [far parlare Linux con espeak](https://www.youtube.com/watch?v=oSA6qASsugM) — [`comandi/espeak`](comandi/espeak)
 - 13/10/2025 [sincronizzare file e cartelle con rsync](https://www.youtube.com/watch?v=uWfAylr3mko) — [`comandi/rsync`](comandi/rsync)
 - 22/10/2026 [redirezione avanzata in bash](https://www.youtube.com/watch?v=cRgHsqAabn4) — *esempi in arrivo*
+- 09/11/2026 [pico e nano, gli editor leggeri](https://www.youtube.com/watch?v=z1H4_-dx_iU) — [`comandi/pico-nano`](comandi/pico-nano)
 
 ## sistema
 
