@@ -40,7 +40,7 @@ Esempi e comandi delle puntate GNU/Linux del canale YouTube [The Linux Nerd](htt
 - 06/05/2025 [scaricare file da internet con wget](https://www.youtube.com/watch?v=DhCnB0Mt-Cs) — [`comandi/wget`](comandi/wget)
 - 19/05/2025 [far parlare Linux con espeak](https://www.youtube.com/watch?v=oSA6qASsugM) — [`comandi/espeak`](comandi/espeak)
 - 13/10/2025 [sincronizzare file e cartelle con rsync](https://www.youtube.com/watch?v=uWfAylr3mko) — [`comandi/rsync`](comandi/rsync)
-- 22/10/2026 [redirezione avanzata in bash](https://www.youtube.com/watch?v=cRgHsqAabn4) — *esempi in arrivo*
+- 22/10/2026 [redirezione avanzata in bash](https://www.youtube.com/watch?v=cRgHsqAabn4) — [`comandi/redirezione-avanzata`](comandi/redirezione-avanzata)
 - 09/11/2026 [pico e nano, gli editor leggeri](https://www.youtube.com/watch?v=z1H4_-dx_iU) — [`comandi/pico-nano`](comandi/pico-nano)
 - 17/11/2026 [capire il DNS con dig e nslookup](https://www.youtube.com/watch?v=y4gnJ2fDN-4) — [`comandi/dns`](comandi/dns)
 
@@ -62,7 +62,7 @@ Esempi e comandi delle puntate GNU/Linux del canale YouTube [The Linux Nerd](htt
 
 - 31/07/2023 [come generare una password sicura con pwgen](https://www.youtube.com/watch?v=4KtnBZIkU24) — [`sicurezza/pwgen`](sicurezza/pwgen)
 - 28/12/2023 [crittografare un file con GPG](https://www.youtube.com/watch?v=xrQyKMrtj7M) — [`sicurezza/gpg`](sicurezza/gpg)
-- 22/10/2025 [installiamo Kali Linux](https://www.youtube.com/watch?v=BNs_g3Uad00) — *esempi in arrivo*
+- 22/10/2025 [installiamo Kali Linux](https://www.youtube.com/watch?v=BNs_g3Uad00) — [`sicurezza/kali-linux`](sicurezza/kali-linux)
 
 ## retrocomputing
 
