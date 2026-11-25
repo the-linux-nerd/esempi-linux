@@ -1,6 +1,6 @@
 # redirezione avanzata in bash
 
-📺 [il video su YouTube](https://www.youtube.com/watch?v=cRgHsqAabn4)
+📺 [il video su YouTube](https://www.youtube.com/watch?v=cRgHsqAabn4) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-redirezione-avanzata-in-bash/)
 
 Ogni programma nasce con tre canali aperti: 0 è lo standard input ( la tastiera ),
 1 lo standard output e 2 lo standard error ( tutti e due lo schermo ).

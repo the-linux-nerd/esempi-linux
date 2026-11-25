@@ -1,6 +1,6 @@
 # dig e nslookup
 
-📺 [il video su YouTube](https://www.youtube.com/watch?v=y4gnJ2fDN-4)
+📺 [il video su YouTube](https://www.youtube.com/watch?v=y4gnJ2fDN-4) · 📝 [l'articolo su www.thelinuxnerd.it](https://www.thelinuxnerd.it/gnu-linux-capire-il-dns-con-dig-e-nslookup/)
 
 Il DNS trasforma i nomi in indirizzi IP: si interroga con `dig` e con `nslookup`.
 Su Debian e Ubuntu stanno nel pacchetto `bind9-dnsutils`, su Fedora in `bind-utils`.
